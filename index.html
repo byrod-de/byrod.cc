@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--link rel="icon" type="image/png" href="images/twinstones-logo.png" sizes="32x32" / -->
+
+    <title>byrod.cc – Procject Overview</title>
+
+    <link id="theme-link" rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/lux/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://embedbsky.com/embedbsky.com-master-min.css" />
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <img src="images/twinstones-logo.png" alt="Twinstones Logo" width="40" height="40" class="me-2"><a
+                class="navbar-brand" href="#">byrod.cc</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#bluesky">BlueSky</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="submenu" class="position-relative">
+        <div class="form-check form-switch float-end me-3">
+            <input class="form-check-input" type="checkbox" id="darkModeToggle">
+            <label class="form-check-label" for="darkModeToggle">Dark Mode</label>
+        </div>
+    </section>
+
+    <header class="bg-light text-dark py-5 text-center">
+        <div class="container">
+            <h1 class="display-4">byrod.cc</h1>
+            <p class="lead">Random Projects around Discord and Torn.com</p>
+        </div>
+    </header>
+
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Projects</h2>
+            <ul id="project-list" class="list-group"></ul>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Gallery</h2>
+            <div id="carouselScreenshots" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" id="carousel-inner"></div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselScreenshots"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselScreenshots"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="bluesky" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4">BlueSky</h2>
+            <div class="d-flex justify-content-center">
+
+            <div id="embedbsky-com-timeline-embed"></div>
+            </div>
+            <script>let containerWidth = 600, containerHeight = 400; const getHtml = async t => { const e = await fetch(t); return 200 !== e.status ? '<p><strong>No feed data could be located</p></strong>' : e.text() }; document.addEventListener('DOMContentLoaded', (async () => { const t = (new Date).toISOString(), e = document.getElementById('embedbsky-com-timeline-embed'); e.style.width = `${containerWidth}px`, e.style.height = `${containerHeight}px`; const n = await getHtml(`https://embedbsky.com/feeds/1ac8e400e286c7befa3d75c6bff523c0533d93d3834e9f51297da4d80d91b8ae.html?v=${t}`); e.innerHTML = n }));</script>
+        </div>
+    </section>
+
+    <footer class="py-3 text-center bg-primary text-light">
+        <div class="container">
+            Creator: <strong>@byrod</strong> on <img src="images/discord.svg" alt="Discord" width="20"
+                height="20"><br />
+            If you like my projects, consider supporting their development:
+            <a href="https://ko-fi.com/N4N6L8OBN" target="_blank"><img height="36" style="border:0px;height:36px;"
+                    src="images/kofi.png" alt="Buy Me a Coffee at ko-fi.com" /></a>
+        </div>
+        <div class="container">
+            &copy; 2025 byrod.
+        </div>
+        <p class="mt-1">
+            <small>
+            </small>
+        </p>
+    </footer>
+
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
