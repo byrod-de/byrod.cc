@@ -3,11 +3,11 @@
  .dark-mode {
      --bs-body-bg: #343a40;
      --bs-body-color: #f0f1f2;
-     --bs-card-bg: #343a40;
+     --bs-card-bg: #55595c;
      --bs-card-color: #f0f1f2;
      --bs-primary: #66bfff;
      --bs-secondary: #999999;
-     --bs-light: #343a40;
+     --bs-light: #55595c;
      --bs-dark: #f0f1f2;
      --carousel-arrow-filter: invert(0);
  }
@@ -18,22 +18,25 @@
      --carousel-arrow-filter: invert(1);
  }
 
- .card {
+.dark-mode .card {
      background-color: var(--bs-card-bg);
      color: var(--bs-card-color);
  }
 
- /* bg-light / text-dark Utilities anpassen */
- .bg-light {
+.dark-mode .bg-light {
      background-color: var(--bs-light) !important;
- }
+}
 
- .text-dark {
-     color: var(--bs-dark) !important;
- }
+.dark-mode .bg-dark {
+    background-color: var(--bs-body-bg) !important;
+}
 
- .dark-mode header,
- .dark-mode section {
+.text-dark {
+    color: var(--bs-dark) !important;
+}
+
+.dark-mode header,
+.dark-mode section {
     background-color: var(--bs-light) !important;
     color: var(--bs-dark) !important;
 }
@@ -58,7 +61,7 @@
 
 #embedbsky-com-timeline-embed * {
     font-family: 'Nunito Sans', sans-serif !important;
-    background-color: var(--bs-body-bg) !important;
+    background-color: var(--bs-light) !important;
     color: var(--bs-body-color) !important;
     size: 14px !important;
 }
