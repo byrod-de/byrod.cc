@@ -43,7 +43,7 @@ projects.forEach((p, i) => {
       <div class="card-body text-center">
         <h5 class="card-title"><img src="${typeImages[p.type]}" alt="${p.type}" style="height: 20px;"> ${p.title}</h5>
         <p class="card-text">${p.desc}</p>
-        <img src="${p.img}" class="card-img-top" alt="${p.title}">
+        ${p.img ? `<img src="${p.img}" class="card-img-top" alt="${p.title}">` : ''}
       </div>
     </div>
   `;

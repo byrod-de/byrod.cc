@@ -1,4 +1,5 @@
 [
   { "title": "Twinstones", "desc": "A Dicord bot: Rolls two d12 (Hope + Fear) the Daggerheart™ way", "img": "images/screenshots/twinstones.png", "link": "https://twinstones.link", "type": "Discord" },
-  { "title": "TornEngine.com", "desc": "A Website: A collection of tools for Torn.com", "img": "images/screenshots/tornengine.png", "link": "https://tornengine.com", "type": "Website" }
+  { "title": "TornEngine.com", "desc": "A Website: A collection of tools for Torn.com", "img": "images/screenshots/tornengine.png", "link": "https://tornengine.com", "type": "Website" },
+  { "title": "Torn URL Shortener", "desc": "A Website: A URL shortener for Torn.com. Use Case: <code>/p</code>, <code>/s</code>, <code>/a</code>, <code>/f</code>, <code>/c</code>, <code>/oc</code> routes are seamlessly handled by byrod.cc, It simplifies linking for Torn.com profiles, factions, and other game-related URLs.", "link": "https://byrod.cc/p/1", "type": "Website" }
 ]
