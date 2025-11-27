@@ -39,9 +39,9 @@ projects.forEach((p, i) => {
   div.className = 'carousel-item' + (i === 0 ? ' active' : '');
 
   div.innerHTML = `
-    <div class="card" style="width: 100%; max-width: 400px; margin: 0 auto; cursor: pointer;" onclick="window.open('${p.link}', '_blank')">
-      <div class="card-body text-center">
-        <h5 class="card-title"><img src="${typeImages[p.type]}" alt="${p.type}" style="height: 20px;"> ${p.title}</h5>
+    <div class="card" style="width: 100%; max-width: 450px; margin: 0 auto; cursor: pointer;" onclick="window.open('${p.link}', '_blank')">
+      <div class="card-body">
+        <h5 class="card-title text-center"><img src="${typeImages[p.type]}" alt="${p.type}" style="height: 20px;"> ${p.title}</h5>
         <p class="card-text">${p.desc}</p>
         ${p.img ? `<img src="${p.img}" class="card-img-top" alt="${p.title}">` : ''}
       </div>
@@ -59,16 +59,16 @@ fetch('images/art/art.json')
   .then(files => {
     const inner = document.getElementById('carousel-inner-character-art');
 
-    //max height 250px and center image
     //format: {"filename":"art1.png", "description":"Marlow"}
     files.forEach((file, i) => {
       const div = document.createElement('div');
       div.className = 'carousel-item' + (i === 0 ? ' active' : '');
       div.innerHTML = `
-            <div class="card" style="width: 100%; max-width: 400px; margin: 0 auto;">
+            <div class="card" style="width: 100%; max-width: 450px; margin: 0 auto;">
               <div class="card-body text-center">
-                <h5 class="card-title">${file.description}</h5>
+                <h5 class="card-title">${file.title}</h5>
                 <img src="images/art/${file.filename}" class="card-img-top" alt="${file.description}">
+                <p class="card-text">${file.description}</p>
               </div>
             </div>
 

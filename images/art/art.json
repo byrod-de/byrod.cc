@@ -1,8 +1,8 @@
 [
-  {"filename":"art1.png", "description":"Marlow"},
-  {"filename":"art2.png", "description":"Linden"},
-  {"filename":"art3.png", "description":"Jerald Fargrove"},
-  {"filename":"art4.png", "description":"Elarys Tealeaf"},
-  {"filename":"art5.png", "description":"Loïc"}
+  {"filename":"art1.png", "title":"Marlow", "description":"A Simiah Rougue"},
+  {"filename":"art2.png", "title":"Linden", "description":"A Firbolg Warrior"},
+  {"filename":"art3.png", "title":"Jerald Fargrove", "description":"A Firbolg Guardian"},
+  {"filename":"art4.png", "title":"Elarys Tealeaf", "description":"A Wood Elf Druid"},
+  {"filename":"art5.png", "title":"Loïc", "description":"A Goblin Ranger, with Xineoph, their ashcrow companion."}
 ]
  

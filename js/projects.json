@@ -1,5 +1,5 @@
 [
   { "title": "Twinstones", "desc": "A Dicord bot: Rolls two d12 (Hope + Fear) the Daggerheart™ way", "img": "images/screenshots/twinstones.png", "link": "https://twinstones.link", "type": "Discord" },
   { "title": "TornEngine.com", "desc": "A Website: A collection of tools for Torn.com", "img": "images/screenshots/tornengine.png", "link": "https://tornengine.com", "type": "Website" },
-  { "title": "Torn URL Shortener", "desc": "A Website: A URL shortener for Torn.com. Use Case: <code>/p</code>, <code>/s</code>, <code>/a</code>, <code>/f</code>, <code>/c</code>, <code>/oc</code> routes are seamlessly handled by byrod.cc, It simplifies linking for Torn.com profiles, factions, and other game-related URLs.", "link": "https://byrod.cc/p/1", "type": "Website" }
+  { "title": "byrod.cc", "desc": "A URL shortener: A URL shortener for Torn.com. Usage: <ul><li>byrod.cc<code>/p/</code>[player id] to link to a profile</li><li>byrod.cc<code>/s/</code>[player id] to link to personalstats</li><li>byrod.cc<code>/a/</code>[player id] to link to attack</li><li>byrod.cc<code>/f/</code>[faction id] to link to a faction</li><li>byrod.cc<code>/c/</code>[company id] to link to a company</li><li>byrod.cc<code>/oc/</code>[oc id] to link to an organised crime</li></ul>", "link": "https://byrod.cc/p/1", "type": "Website" }
 ]
