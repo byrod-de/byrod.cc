@@ -1,10 +1,3 @@
-//dark mode toggle
-const toggle = document.getElementById('darkModeToggle');
-toggle.addEventListener('change', () => {
-  document.body.classList.toggle('dark-mode', toggle.checked);
-});
-
-
 //map project types to images
 
 const typeImages = {

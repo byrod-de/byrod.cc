@@ -1,56 +1,76 @@
- @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700&display=swap");
 
- .dark-mode {
-     --bs-body-bg: #343a40;
-     --bs-body-color: #f0f1f2;
-     --bs-card-bg: #55595c;
-     --bs-card-color: #f0f1f2;
-     --bs-primary: #66bfff;
-     --bs-secondary: #999999;
-     --bs-light: #55595c;
-     --bs-dark: #f0f1f2;
-     --carousel-arrow-filter: invert(0);
- }
-
- body {
-     background-color: var(--bs-body-bg);
-     color: var(--bs-body-color);
-     --carousel-arrow-filter: invert(1);
- }
-
-.dark-mode .card {
-     background-color: var(--bs-card-bg);
-     color: var(--bs-card-color);
- }
-
-.dark-mode .bg-light {
-     background-color: var(--bs-light) !important;
+/* ── Variables ── */
+:root {
+    --bs-body-bg:          #221c16;
+    --bs-body-bg-rgb:      34, 28, 22;
+    --bs-body-color:       #e8ddd0;
+    --bs-body-color-rgb:   232, 221, 208;
+    --bs-heading-color:    #e8ddd0;
+    --bs-link-color:       rgb(200, 240, 96);
+    --bs-link-color-rgb:   200, 240, 96;
+    --bs-border-color:     #2e2620;
+    --bs-secondary-bg:     #2a221a;
+    --bs-tertiary-bg:      #2a221a;
 }
 
-.dark-mode .bg-dark {
-    background-color: var(--bs-body-bg) !important;
+/* ── Base ── */
+body {
+    background-color: #221c16 !important;
+    color: #e8ddd0 !important;
 }
 
-.text-dark {
-    color: var(--bs-dark) !important;
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #e8ddd0;
 }
 
-.dark-mode header,
-.dark-mode section {
-    background-color: var(--bs-light) !important;
-    color: var(--bs-dark) !important;
+hr { border-color: #2e2620; }
+
+/* ── Layout ── */
+section, main, .container, .container-fluid,
+header:not(.navbar), footer {
+    background-color: transparent !important;
 }
 
-.dark-mode header h1,
-.dark-mode header h2,
-.dark-mode header h3,
-.dark-mode header p,
-.dark-mode section h2,
-.dark-mode section h3,
-.dark-mode a {
-    color: var(--bs-dark) !important;
+header.bg-light  { background-color: #221c16 !important; }
+footer.bg-primary { background-color: rgb(42, 54, 50) !important; }
+
+/* ── Bootstrap color overrides ── */
+.bg-light  { background-color: #2a221a !important; color: #e8ddd0 !important; }
+.bg-dark   { background-color: #1a1410 !important; }
+.text-dark { color: #e8ddd0 !important; }
+
+/* ── Components ── */
+.navbar {
+    background-color: rgb(42, 54, 50) !important;
+}
+.navbar-brand, .nav-link {
+    color: #e8ddd0 !important;
 }
 
+.card {
+    background-color: #2a221a !important;
+    border-color: #2e2620 !important;
+    color: #e8ddd0 !important;
+}
+
+.form-control, .form-select {
+    background-color: #2a221a !important;
+    color: #e8ddd0 !important;
+    border-color: #2e2620 !important;
+}
+
+.btn-primary {
+    background-color: rgb(98, 121, 114);
+    border-color: rgb(98, 121, 114);
+    color: #0a0a0a;
+}
+.btn-success {
+    background-color: rgb(200, 240, 96);
+    border-color: rgb(200, 240, 96);
+    color: #0a0a0a;
+}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -59,9 +79,22 @@
     transition: filter 0.3s ease;
 }
 
-#embedbsky-com-timeline-embed * {
+/* ── EmbedBsky ── */
+#embedbsky-com-timeline-embed,
+#embedbsky-com-timeline-embed *:not(img):not(svg):not(path) {
+    background-color: #221c16 !important;
+    color: #e8ddd0 !important;
+    border-color: #2e2620 !important;
     font-family: 'Nunito Sans', sans-serif !important;
-    background-color: var(--bs-light) !important;
-    color: var(--bs-body-color) !important;
-    size: 14px !important;
+}
+
+#embedbsky-com-timeline-embed a {
+    color: rgb(200, 240, 96) !important;
+}
+
+#embedbsky-com-timeline-embed svg,
+#embedbsky-com-timeline-embed path {
+    fill: unset;
+    color: unset;
+    background-color: transparent !important;
 }
