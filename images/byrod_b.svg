@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 142 142" width="142" height="142">
+  <rect width="142" height="142" fill="#221c16"/>
+  <!-- Lime border, muted -->
+  <rect x="4" y="4" width="134" height="134" rx="4" fill="none" stroke="rgb(160,195,70)" stroke-width="2.5"/>
+  <!-- b pixels: diagonal teal/olive/dark -->
+  <rect x="32" y="16"  width="14" height="14" rx="2" fill="rgb(98,121,114)"/>
+  <rect x="32" y="32"  width="14" height="14" rx="2" fill="rgb(111,100,0)"/>
+  <rect x="32" y="48"  width="14" height="14" rx="2" fill="rgb(42,54,50)"/>
+  <rect x="48" y="48"  width="14" height="14" rx="2" fill="rgb(98,121,114)"/>
+  <rect x="64" y="48"  width="14" height="14" rx="2" fill="rgb(111,100,0)"/>
+  <rect x="80" y="48"  width="14" height="14" rx="2" fill="rgb(42,54,50)"/>
+  <rect x="32" y="64"  width="14" height="14" rx="2" fill="rgb(98,121,114)"/>
+  <rect x="96" y="64"  width="14" height="14" rx="2" fill="rgb(111,100,0)"/>
+  <rect x="32" y="80"  width="14" height="14" rx="2" fill="rgb(111,100,0)"/>
+  <rect x="96" y="80"  width="14" height="14" rx="2" fill="rgb(42,54,50)"/>
+  <rect x="32" y="96"  width="14" height="14" rx="2" fill="rgb(42,54,50)"/>
+  <rect x="48" y="96"  width="14" height="14" rx="2" fill="rgb(98,121,114)"/>
+  <rect x="64" y="96"  width="14" height="14" rx="2" fill="rgb(111,100,0)"/>
+  <rect x="80" y="96"  width="14" height="14" rx="2" fill="rgb(42,54,50)"/>
+  <text x="71" y="128" font-family="Space Mono, monospace" font-size="9" fill="#4a3e34" letter-spacing="1.5" text-anchor="middle">62 79 72 6F 64</text>
+</svg>

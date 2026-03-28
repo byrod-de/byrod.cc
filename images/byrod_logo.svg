@@ -12,19 +12,19 @@
   <rect x="36"  y="36" width="75" height="42" rx="1" fill="rgb(98,121,114)"/>
   <rect x="113" y="36" width="75" height="42" rx="1" fill="rgb(111,100,0)"/>
   <rect x="190" y="36" width="75" height="42" rx="1" fill="rgb(42,54,50)"/>
-  <rect x="267" y="36" width="76" height="42" rx="1" fill="rgb(200,240,96)"/>
+  <rect x="267" y="36" width="76" height="42" rx="1" fill="rgb(160,195,70)"/>
 
   <!-- Hex + version -->
   <text x="36" y="106" font-family="Space Mono, monospace" font-size="10" fill="#4a3e34" letter-spacing="2">62 79 72 6F 64  ·  v1.1.7644499</text>
 
   <!-- Binary grid: 5 rows (b,y,r,o,d) × 8 cols -->
   <!-- bit size 34, gap 5, origin x=36, y=168 -->
-  <!-- colors: on-1=rgb(98,121,114) on-2=rgb(111,100,0) on-a=rgb(200,240,96) off=#2a221a -->
+  <!-- colors: on-1=rgb(98,121,114) on-2=rgb(111,100,0) on-a=rgb(160,195,70) off=#2a221a -->
 
   <!-- Row 0: b = 0 1 1 0 0 0 1 0 -->
   <rect x="36"   y="120" width="34" height="34" rx="3" fill="#2a221a"/>
   <rect x="75"   y="120" width="34" height="34" rx="3" fill="rgb(98,121,114)"/>
-  <rect x="114"  y="120" width="34" height="34" rx="3" fill="rgb(200,240,96)"/>
+  <rect x="114"  y="120" width="34" height="34" rx="3" fill="rgb(160,195,70)"/>
   <rect x="153"  y="120" width="34" height="34" rx="3" fill="#2a221a"/>
   <rect x="192"  y="120" width="34" height="34" rx="3" fill="#2a221a"/>
   <rect x="231"  y="120" width="34" height="34" rx="3" fill="#2a221a"/>
@@ -35,17 +35,17 @@
   <rect x="36"   y="159" width="34" height="34" rx="3" fill="#2a221a"/>
   <rect x="75"   y="159" width="34" height="34" rx="3" fill="rgb(111,100,0)"/>
   <rect x="114"  y="159" width="34" height="34" rx="3" fill="rgb(98,121,114)"/>
-  <rect x="153"  y="159" width="34" height="34" rx="3" fill="rgb(200,240,96)"/>
+  <rect x="153"  y="159" width="34" height="34" rx="3" fill="rgb(160,195,70)"/>
   <rect x="192"  y="159" width="34" height="34" rx="3" fill="rgb(111,100,0)"/>
   <rect x="231"  y="159" width="34" height="34" rx="3" fill="#2a221a"/>
   <rect x="270"  y="159" width="34" height="34" rx="3" fill="#2a221a"/>
-  <rect x="309"  y="159" width="34" height="34" rx="3" fill="rgb(200,240,96)"/>
+  <rect x="309"  y="159" width="34" height="34" rx="3" fill="rgb(160,195,70)"/>
 
   <!-- Row 2: r = 0 1 1 1 0 0 1 0 -->
   <rect x="36"   y="198" width="34" height="34" rx="3" fill="#2a221a"/>
   <rect x="75"   y="198" width="34" height="34" rx="3" fill="rgb(111,100,0)"/>
   <rect x="114"  y="198" width="34" height="34" rx="3" fill="rgb(98,121,114)"/>
-  <rect x="153"  y="198" width="34" height="34" rx="3" fill="rgb(200,240,96)"/>
+  <rect x="153"  y="198" width="34" height="34" rx="3" fill="rgb(160,195,70)"/>
   <rect x="192"  y="198" width="34" height="34" rx="3" fill="#2a221a"/>
   <rect x="231"  y="198" width="34" height="34" rx="3" fill="#2a221a"/>
   <rect x="270"  y="198" width="34" height="34" rx="3" fill="rgb(111,100,0)"/>
@@ -54,20 +54,20 @@
   <!-- Row 3: o = 0 1 1 0 1 1 1 1 -->
   <rect x="36"   y="237" width="34" height="34" rx="3" fill="#2a221a"/>
   <rect x="75"   y="237" width="34" height="34" rx="3" fill="rgb(98,121,114)"/>
-  <rect x="114"  y="237" width="34" height="34" rx="3" fill="rgb(200,240,96)"/>
+  <rect x="114"  y="237" width="34" height="34" rx="3" fill="rgb(160,195,70)"/>
   <rect x="153"  y="237" width="34" height="34" rx="3" fill="#2a221a"/>
   <rect x="192"  y="237" width="34" height="34" rx="3" fill="rgb(111,100,0)"/>
   <rect x="231"  y="237" width="34" height="34" rx="3" fill="rgb(98,121,114)"/>
   <rect x="270"  y="237" width="34" height="34" rx="3" fill="rgb(111,100,0)"/>
-  <rect x="309"  y="237" width="34" height="34" rx="3" fill="rgb(200,240,96)"/>
+  <rect x="309"  y="237" width="34" height="34" rx="3" fill="rgb(160,195,70)"/>
 
   <!-- Row 4: d = 0 1 1 0 0 1 0 0 -->
   <rect x="36"   y="276" width="34" height="34" rx="3" fill="#2a221a"/>
-  <rect x="75"   y="276" width="34" height="34" rx="3" fill="rgb(200,240,96)"/>
+  <rect x="75"   y="276" width="34" height="34" rx="3" fill="rgb(160,195,70)"/>
   <rect x="114"  y="276" width="34" height="34" rx="3" fill="rgb(98,121,114)"/>
   <rect x="153"  y="276" width="34" height="34" rx="3" fill="#2a221a"/>
   <rect x="192"  y="276" width="34" height="34" rx="3" fill="#2a221a"/>
-  <rect x="231"  y="276" width="34" height="34" rx="3" fill="rgb(200,240,96)"/>
+  <rect x="231"  y="276" width="34" height="34" rx="3" fill="rgb(160,195,70)"/>
   <rect x="270"  y="276" width="34" height="34" rx="3" fill="#2a221a"/>
   <rect x="309"  y="276" width="34" height="34" rx="3" fill="#2a221a"/>
 

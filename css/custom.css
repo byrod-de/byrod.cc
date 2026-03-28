@@ -7,8 +7,10 @@
     --bs-body-color:       #e8ddd0;
     --bs-body-color-rgb:   232, 221, 208;
     --bs-heading-color:    #e8ddd0;
-    --bs-link-color:       rgb(200, 240, 96);
+    --bs-link-color:       rgb(160, 195, 70);
     --bs-link-color-rgb:   200, 240, 96;
+    --bs-link-hover-color: rgb(195, 220, 100);
+    --bs-link-color-rgb:   195, 220, 100;
     --bs-border-color:     #2e2620;
     --bs-secondary-bg:     #2a221a;
     --bs-tertiary-bg:      #2a221a;
@@ -67,8 +69,8 @@ footer.bg-primary { background-color: rgb(42, 54, 50) !important; }
     color: #0a0a0a;
 }
 .btn-success {
-    background-color: rgb(200, 240, 96);
-    border-color: rgb(200, 240, 96);
+    background-color: rgb(160, 195, 70);
+    border-color: rgb(160, 195, 70);
     color: #0a0a0a;
 }
 
@@ -77,6 +79,10 @@ footer.bg-primary { background-color: rgb(42, 54, 50) !important; }
     filter: var(--carousel-arrow-filter);
     background-color: transparent;
     transition: filter 0.3s ease;
+}
+
+a:hover {
+  color: rgb(111,100,0) !important;
 }
 
 /* ── EmbedBsky ── */
@@ -89,7 +95,7 @@ footer.bg-primary { background-color: rgb(42, 54, 50) !important; }
 }
 
 #embedbsky-com-timeline-embed a {
-    color: rgb(200, 240, 96) !important;
+    color: rgb(160, 195, 70) !important;
 }
 
 #embedbsky-com-timeline-embed svg,
